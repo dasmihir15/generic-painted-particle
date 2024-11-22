@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background: black;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#title-poem {
+  border: 1px solid white;
+  color: white;
+  padding: 60px 40px;
+  position: absolute;
+  right: 150px;
+  margin: auto 0;
+  top: 0;
+  bottom: 0;
+  height: fit-content;
+  width: 400px;
+  font-size: 18px;
+  background: linear-gradient(45deg, black, indigo);
+  box-shadow: 5px 5px 15px -5px #e0e0e0;
+}
